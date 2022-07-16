@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es2021", // Converts the code for JS version of 2021
+    "sourceMap": true, // Creates a map file on dist to allow debug e mapping G
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true, // Only allow imports with the correct case
+    "module": "commonjs", // Converts the code to CommonJS
+    "moduleResolution": "node", 
+    "esModuleInterop": true, // Resolves compatibilities between modules and libs
+    "baseUrl": "src", // Sets the base url to main directory
+    "paths": {
+      "@/*": ["*"],
+      "@/tests/*": ["../tests/*"],
+    },
+    "strict": true, // Resolves strict mode errors, good for testing purposes and strict code standards
+    
+  },
+  "include": ["src/**/*", "tests"], // Include all files in the src folder or any subfolder on dist
+}
