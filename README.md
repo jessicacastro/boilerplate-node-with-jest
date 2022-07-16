@@ -22,10 +22,10 @@
 <p align="center">
   A boilerplate to create a API project with node with TDD pattern and clean code architeture and typescript. We use jest, husky, lint staged and ESLint on initial config.
 
-  <small>Note: We do not initialize any server (yet)</small>
+  <p align="center"><small>Note: We do not initialize any server (yet)</small></p>
 </p>
 
-## 📝 Tabela de Conteúdo
+## 📝 Content table
 
 - [Getting started with the project](#getting_started)
 - [Tools](#built_using)
@@ -33,10 +33,10 @@
 ## 🏁 Getting started with the project <a name = "getting_started"></a>
 Here is the instructions so you can initialize your own repository with this template and use it however you want.
 
-### First Of All
+### First of all :zero:
 Create your repository by clicking the "Use this template" button, it's the green one at the top and right.
 
-### Prerequisite
+### Prerequisite :books:
 Make sure you have the node version this project uses or nvm to manage node versions, as well as one of the packages managers (yarn or npm) installed on your machine.
 
 ```
@@ -46,7 +46,7 @@ npm -v
 nvm --help #this is optional
 ```
 
-### Installing
+### Installing :atom:
 
 Download the project on your machine and run the command with yarn or npm to install the dependencies.
 
@@ -58,7 +58,7 @@ npm i
 ```
 
 Wait until all dependencies have been installed and the folder node_modules show up.
-### Running
+### Running :arrow_forward:
 To run the application, use the `start:dev` script on `package.json`.
 ```
 yarn start:dev
